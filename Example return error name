@@ -1,0 +1,6 @@
+def get_integer(my_var):
+    try:
+        x=int(my_var)
+        return x
+    except Exception as error:
+        return error
